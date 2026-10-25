@@ -1,0 +1,17 @@
+{
+  "name": "shiju-s-project",
+  "private": true,
+  "workspaces": [
+    "build-it-smart"
+  ],
+  "scripts": {
+    "dev": "npm --workspace build-it-smart run dev",
+    "build": "npm --workspace build-it-smart run build",
+    "build:dev": "npm --workspace build-it-smart run build:dev",
+    "preview": "npm --workspace build-it-smart run preview",
+    "lint": "npm --workspace build-it-smart run lint",
+    "format": "npm --workspace build-it-smart run format",
+    "test": "npm --workspace build-it-smart run test",
+    "test:watch": "npm --workspace build-it-smart run test:watch"
+  }
+}
